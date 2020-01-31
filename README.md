@@ -31,7 +31,7 @@
 
 - MySQL 접속
   ```
-  $ docker exec -it {Container ID} bash -c "mysql -uroot -p" 
+  $ docker exec -it {Container ID} bash -c "mysql -uhuna -phuna"
   ```
 - `database` 선택
   ```
